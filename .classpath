@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/resources/examples"/>
+	<classpathentry excluding="**|Dataset/|Dataset/train/|Dataset/train/0/|Dataset/train/2/|Dataset/train/4/|Dataset/train/6/|Dataset/train/8/|Dataset/train/1/|Dataset/train/3/|Dataset/train/5/|Dataset/train/7/|Dataset/train/9/|Dataset/train/B/|Dataset/train/F/|Dataset/train/J/|Dataset/train/N/|Dataset/train/R/|Dataset/train/V/|Dataset/train/Z/|Dataset/train/C/|Dataset/train/G/|Dataset/train/K/|Dataset/train/O/|Dataset/train/S/|Dataset/train/W/|Dataset/train/D/|Dataset/train/H/|Dataset/train/L/|Dataset/train/P/|Dataset/train/T/|Dataset/train/X/|Dataset/train/A/|Dataset/train/E/|Dataset/train/I/|Dataset/train/M/|Dataset/train/Q/|Dataset/train/U/|Dataset/train/Y/|Fonts/|examples/" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
